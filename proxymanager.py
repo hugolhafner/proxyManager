@@ -41,7 +41,7 @@ class ProxyManager:
 				formattedProxies.append(proxies)
 			else:
 				formattedProxies.append([proxy, proxies])
-		return temp
+		return formattedProxies
 
 	def nextProxy(self):
 		if len(self.proxies) == 0:
